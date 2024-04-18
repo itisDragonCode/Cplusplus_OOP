@@ -1,4 +1,3 @@
-#pragma once
 #include<iostream>
 #include<string>
 
@@ -119,7 +118,7 @@ istream& operator>>(istream& CIN, Number& obj)
 	return CIN;
 }
 
-void Haupt() {
+int main() {
 	Number n1(5);
 	Number n2 = 7;
 
@@ -135,6 +134,6 @@ void Haupt() {
 	n4 = n3;
 
 	n4.PrintArray();
-
+	return 0;
 
 }
